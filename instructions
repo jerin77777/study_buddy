@@ -1,1 +1,41 @@
 instructions
+required 
+  -postgres
+  -python
+  -flutter
+  
+
+setup
+  postgres
+    -install postgres
+  python
+    -install all dependencies in install.txt
+    -run setup.py (do not run without installing postgres)
+    -join haiper discord channel via https://discord.gg/EUQvgt5dav
+  flutter
+    -run flutter pub get
+    -make sure u have a camera to test student focus analysis
+
+running
+  run flutter application (using flutter run -d chrome --web-renderer canvaskit)
+  run main.py
+  login to your discord account and open any create channel in haiper server (for testing history)
+  use the pdfs provided in the drive link https://drive.google.com/drive/folders/1EoDqfu8U0PRgY6j3xXSCNRqyES_O2IX0?usp=sharing
+  tested questions:
+  maths:
+      A cottage industry produces a certain number of pottery articles in a day. It was observed
+      on a particular day that the cost of production of each article (in rupees) was 3 more than
+      twice the number of articles produced on that day. If the total cost of production on that
+      day was ` 90, find the number of articles produced and the cost of each article.
+  science:
+      explain uniform and non uniform motion?
+  history:
+      explain the topic Rise of Mass Production and Consumption?
+  
+
+important:
+  pdf takes 2-3 minutes to save after analysis.
+  refresh the page and select the pdf u want to query from
+  -do not submit prompt without uploading and selecting the pdf.
+  -do not submit history prompts without opening create channels in haiper server
+  in case camera module is not working please comment the function takePicture() from flutter src
